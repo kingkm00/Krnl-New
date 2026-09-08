@@ -9765,7 +9765,7 @@ function Fe() {
     return e.jsx(De, {
         title: "Krnl — Powerful Multi-Platform Luau Scripting Engine",
         description: "Download Krnl, the ultimate Luau scripting engine for iOS, Android, and Windows.",
-        canonical: "https://krnl.cat/",
+        canonical: "https://krnl.lat/",
         children: e.jsx(Le, {})
     })
 }
@@ -10130,7 +10130,7 @@ function We() {
     return e.jsx(De, {
         title: "Download Krnl — iOS, Android & Windows",
         description: "Get Krnl on iPhone, Android, or Windows: IPA, APKs, and EXE installers available.",
-        canonical: "https://krnl.cat/downloads",
+        canonical: "https://krnl.lat/downloads",
         children: e.jsx(Ue, {})
     })
 }
@@ -10521,9 +10521,9 @@ const $e = () => {
                                 className: "text-white",
                                 children: "Website:"
                             }), " ", e.jsx("a", {
-                                href: "https://krnl.cat",
+                                href: "https://krnl.lat",
                                 className: "text-purple-300 hover:text-purple-200 transition-colors",
-                                children: "https://krnl.cat"
+                                children: "https://krnl.lat"
                             })]
                         })]
                     }), e.jsxs("p", {
@@ -10545,7 +10545,7 @@ function qe() {
     return e.jsx(De, {
         title: "Krnl Terms of Service",
         description: "Read the official Terms of Service for Krnl, covering usage, liability, and legal guidelines.",
-        canonical: "https://krnl.cat/terms-of-service",
+        canonical: "https://krnl.lat/terms-of-service",
         children: e.jsx(Be, {})
     })
 }
