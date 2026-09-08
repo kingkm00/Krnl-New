@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="assets/Krnl_Logo.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krnl — Powerful Multi-Platform Luau Scripting Engine</title>
+    <script type="module" crossorigin="" src="assets/index.js"></script>
+    <link rel="modulepreload" crossorigin="" href="assets/react-vendor.js">
+    <link rel="modulepreload" crossorigin="" href="assets/router-vendor.js">
+    <link rel="modulepreload" crossorigin="" href="assets/animation-vendor.js">
+    <link rel="modulepreload" crossorigin="" href="assets/three-vendor.js">
+    <link rel="stylesheet" crossorigin="" href="assets/index.css">
+    <meta name="description" content="Download Krnl, the ultimate Luau scripting engine for iOS, Android, and Windows.">
+    <link rel="canonical" href="index.html">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Krnl","url":"https://krnl.cat/","applicationCategory":"DeveloperTool","operatingSystem":["iOS","Android","Windows"]}</script>
+</head>
+<body>
+    <div id="root">
+      <div class="min-h-screen bg-black">
+        <div class="min-h-screen bg-black">
+          <header class="fixed top-0 left-0 right-0 z-50 flex justify-center">
+            <div class="mt-4 mx-4">
+              <nav class="relative backdrop-blur-2xl bg-black/20 border border-white/20 rounded-2xl transition-all duration-500 ease-out shadow-2xl">
+                <div class="absolute inset-0 rounded-2xl bg-gradient-to-r from-white/5 to-white/10 pointer-events-none"></div>
+                <div class="relative px-4 lg:px-6">
+                  <div class="flex items-center justify-between h-14 gap-8">
+                    <a href="index.html">
+                      <div class="flex items-center space-x-2 cursor-pointer">
+                        <img alt="Krnl Logo" class="w-6 h-6" src="assets/Krnl_Logo.svg">
+                        <span class="text-white font-medium text-base">Krnl</span>
+                      </div>
+                    </a>
+                    <div class="hidden lg:flex items-center">
+                      <div class="flex items-center space-x-6">
+                        <a href="mailto:contact@krnl.cat" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors duration-150 text-sm font-medium">Contact</a>
+                        <a href="https://discord.gg/quSW94vB7q" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors duration-150 text-sm font-medium">Discord</a>
+                        <a href="https://github.com/unified-naming-convention/NamingStandard/tree/main/api" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors duration-150 text-sm font-medium">Docs</a>
+                      </div>
+                    </div>
+                    <div class="flex items-center">
+                      <a href="downloads.html">
+                        <button class="relative bg-white/90 backdrop-blur-sm text-black px-3 py-1.5 rounded-xl text-sm font-medium flex items-center space-x-2 hover:bg-white border border-black/20 shadow-md hover:shadow-white/10 transition-[background-color,box-shadow] duration-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download" aria-hidden="true"><path d="M12 15V3"></path><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><path d="m7 10 5 5 5-5"></path></svg>
+                          <span>Download</span>
+                          <div class="absolute inset-0 rounded-xl bg-white/15 blur-lg -z-10 opacity-30"></div>
+                        </button>
+                      </a>
+                      <div class="lg:hidden ml-3">
+                        <button class="text-gray-400 hover:text-white p-1.5 transition-colors duration-150">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu" aria-hidden="true"><path d="M4 12h16"></path><path d="M4 18h16"></path><path d="M4 6h16"></path></svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="lg:hidden overflow-hidden">
+                    <div class="border-t border-white/20 pt-3 pb-4 mt-2">
+                      <div class="flex flex-col space-y-3">
+                        <a href="mailto:contact@krnl.cat" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors duration-150 text-sm font-medium">Contact</a>
+                        <a href="https://discord.gg/quSW94vB7q" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors duration-150 text-sm font-medium">Discord</a>
+                        <a href="https://github.com/unified-naming-convention/NamingStandard/tree/main/api" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors duration-150 text-sm font-medium">Docs</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </header>
+
+          <section class="relative min-h-screen flex flex-col items-center justify-center bg-black pt-16 sm:pt-20 lg:pt-24 pb-20 sm:pb-32 lg:pb-40">
+            <div class="fixed inset-0 pointer-events-none" style="z-index: 0; background: radial-gradient(rgb(26, 15, 46) 0%, rgb(15, 10, 26) 50%, rgb(0, 0, 0) 100%); opacity: 0.8;">
+              <canvas data-engine="three.js r177" width="800" height="600" style="display: block; width: 800px; height: 600px;"></canvas>
+            </div>
+            <div class="relative z-10 w-full max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8 text-center">
+              <div class="mb-4 sm:mb-6">
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-[1.1] sm:leading-[1.2] tracking-tight font-['Epilogue',sans-serif]">
+                  Krnl's back,<br>
+                  <span class="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">better than ever</span>
+                </h1>
+              </div>
+              <p class="text-base sm:text-lg lg:text-xl text-gray-400 max-w-2xl mx-auto mb-8 sm:mb-10 leading-relaxed">
+                A powerful multi-platform Luau scripting engine, complete<br class="hidden sm:block">
+                with a text editor and built-in script database.
+              </p>
+              <div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-8 sm:mb-12">
+                <a href="downloads.html" class="inline-flex items-center justify-center gap-2 min-h-[2.75rem] sm:min-h-11 px-4 sm:px-5 py-2 sm:py-2.5 text-sm sm:text-base font-medium leading-4 tracking-[0.2px] text-black bg-gray-50 rounded-lg border-none cursor-pointer transition-all duration-200 ease-in-out whitespace-nowrap outline-none w-full sm:w-auto">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download sm:w-[18px] sm:h-[18px]" aria-hidden="true"><path d="M12 15V3"></path><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><path d="m7 10 5 5 5-5"></path></svg>
+                  <span>Download</span>
+                </a>
+                <a href="https://discord.gg/quSW94vB7q" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-1 min-h-[2.75rem] sm:min-h-11 px-4 sm:px-5 py-2 sm:py-2.5 text-sm sm:text-base font-medium leading-4 text-white cursor-pointer border-none rounded-lg outline-none whitespace-nowrap w-full sm:w-auto" style="background: linear-gradient(rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.1));">
+                  <img alt="Discord" class="w-5 h-5 sm:w-6 sm:h-6" src="assets/discord.svg">
+                  <span>Join Discord</span>
+                </a>
+              </div>
+            </div>
+            <div class="w-full mt-[-4em] sm:mt-[-5em] lg:mt-[-7em] pt-[4em] sm:pt-[5em] lg:pt-[7em]">
+              <img alt="Krnl Editor Preview" class="block w-full max-w-[90rem] mx-auto my-4 sm:my-8" draggable="false" src="assets/Krnl_Editor_Preview.png" style="filter: drop-shadow(rgba(174, 81, 255, 0.35) 0px -1.5em 3em);">
+            </div>
+          </section>
+
+          <footer>
+            <div class="footer">
+              <div class="footer-copyright">
+                <img alt="Krnl Logo" src="assets/Krnl_Logo.svg">
+                <a href="index.html" class="footer-item">Krnl</a>
+                <p>© Copyright 2025 Krnl Inc.</p>
+              </div>
+              <div class="footer-column">
+                <p class="footer-title">Downloads</p>
+                <a href="downloads.html" class="footer-item">Android</a>
+                <a href="downloads.html" class="footer-item">iOS</a>
+                <a href="downloads.html" class="footer-item">Windows</a>
+              </div>
+              <div class="footer-column">
+                <p class="footer-title">Resources</p>
+                <a class="footer-item" href="https://github.com/unified-naming-convention/NamingStandard/tree/main/api" target="_blank" rel="noopener noreferrer">API Docs</a>
+                <a class="footer-item" href="https://scriptblox.com/" target="_blank" rel="noopener noreferrer">ScriptBlox</a>
+              </div>
+              <div class="footer-column">
+                <p class="footer-title">Company</p>
+                <a class="footer-item" href="mailto:contact@krnl.cat">Contact</a>
+                <a class="footer-item" href="terms-of-service.html">Terms of Service</a>
+              </div>
+              <div class="footer-column">
+                <p class="footer-title">Social</p>
+                <a class="footer-item" href="https://discord.gg/quSW94vB7q" target="_blank" rel="noopener noreferrer">Discord</a>
+                <span class="footer-disabled">Twitter</span>
+                <span class="footer-disabled">YouTube</span>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
