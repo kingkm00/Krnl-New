@@ -9230,11 +9230,11 @@ const ve = n.forwardRef((({
         }), []);
         const s = [{
             name: "Contact",
-            href: "mailto:krnl.inc@gmail.com",
+            href: "https://discord.gg/ECgnyDq9h5",
             internal: !1
         }, {
             name: "Discord",
-            href: "https://discord.gg/quSW94vB7q",
+            href: "https://discord.gg/ECgnyDq9h5",
             internal: !1
         }, {
             name: "Docs",
@@ -9554,7 +9554,7 @@ const ve = n.forwardRef((({
                         children: "Download"
                     })]
                 }), e.jsxs(t.a, {
-                    href: "https://discord.gg/quSW94vB7q",
+                    href: "https://discord.gg/ECgnyDq9h5",
                     target: "_blank",
                     rel: "noopener noreferrer",
                     transition: {
@@ -9655,7 +9655,7 @@ const Oe = () => e.jsx("footer", {
                     className: "footer-item",
                     children: "Krnl"
                 }), e.jsx("p", {
-                    children: "© Copyright 2025 Krnl Inc."
+                    children: "© Copyright 2026 Krnl Inc."
                 })]
             }), e.jsxs("div", {
                 className: "footer-column",
@@ -9700,11 +9700,15 @@ const Oe = () => e.jsx("footer", {
                     children: "Company"
                 }), e.jsx("a", {
                     className: "footer-item",
-                    href: "mailto:krnl.inc@gmail.com",
+                    href: "https://discord.gg/ECgnyDq9h5",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
                     children: "Contact"
                 }), e.jsx("a", {
                     className: "footer-item",
                     href: "/terms-of-service",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
                     children: "Terms of Service"
                 })]
             }), e.jsxs("div", {
@@ -9714,7 +9718,7 @@ const Oe = () => e.jsx("footer", {
                     children: "Social"
                 }), e.jsx("a", {
                     className: "footer-item",
-                    href: "https://discord.gg/quSW94vB7q",
+                    href: "https://discord.gg/ECgnyDq9h5",
                     target: "_blank",
                     rel: "noopener noreferrer",
                     children: "Discord"
@@ -9947,190 +9951,225 @@ const Re = () => {
             })]
         })]
     }),
-    Ue = () => e.jsxs("section", {
-        className: "relative min-h-screen bg-black pt-32 pb-20",
-        children: [e.jsx(Re, {}), e.jsxs("div", {
-            className: "relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
-            children: [e.jsxs(t.div, {
-                initial: {
-                    opacity: 0,
-                    y: 20
-                },
-                animate: {
-                    opacity: 1,
-                    y: 0
-                },
-                transition: {
-                    duration: .6,
-                    ease: "easeOut"
-                },
-                className: "text-center mb-16",
-                children: [e.jsxs("div", {
-                    className: "inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm mb-6",
-                    children: [e.jsx(Ne, {
-                        size: 16,
-                        className: "text-purple-300"
-                    }), e.jsx("span", {
-                        className: "text-sm text-gray-300 font-medium",
-                        children: "Desktop & mobile"
-                    })]
-                }), e.jsx("h1", {
-                    className: "text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-[1.1] tracking-tight font-['Epilogue',sans-serif] mb-6",
-                    children: "Download Krnl"
-                }), e.jsxs("p", {
-                    className: "text-xl text-gray-400 max-w-2xl mx-auto",
-                    children: ["Available for iOS, Android, and soon Windows.", e.jsx("br", {}), "Choose your platform and get started."]
-                })]
-            }), e.jsxs("div", {
-                className: "grid grid-cols-1 lg:grid-cols-3 gap-8",
-                children: [e.jsxs(Ie, {
-                    icon: we,
-                    title: "iOS",
-                    subtitle: "iPhone & iPad",
-                    featured: !0,
-                    children: [e.jsxs(He, {
-                        href: "https://krnl.filenetwork.vip/ios.html",
-                        children: [e.jsx(ze, {
-                            size: 16
-                        }), "Download IPA"]
-                    }), e.jsxs(He, {
-                        href: "https://krnl.filenetwork.vip/ios.html",
-                        children: [e.jsx(ze, {
-                            size: 16
-                        }), "Download VNG IPA"]
-                    }), e.jsxs(He, {
-                        href: "https://krnl-ios.com/",
-                        children: [e.jsx(ze, {
-                            size: 16
-                        }), "Direct Install"]
-                    }), e.jsxs("div", {
-                        className: "flex items-start gap-2 mt-4 p-3 rounded-lg bg-blue-500/10 border border-blue-500/20",
-                        children: [e.jsx(ke, {
-                            size: 16,
-                            className: "text-blue-400 mt-0.5 flex-shrink-0"
-                        }), e.jsx("p", {
-                            className: "text-xs text-blue-200",
-                            children: "Direct install is provided by a third party distributor"
-                        })]
-                    })]
-                }), e.jsxs(Ie, {
-                    icon: ze,
-                    title: "Android",
-                    subtitle: "All Android devices",
-                    children: [e.jsxs(He, {
-                        primary: !0,
-                        href: "https://krnl.filenetwork.vip/android.html",
-                        children: [e.jsx(Ne, {
-                            size: 16
-                        }), "Download Regular"]
-                    }), e.jsxs(He, {
-                        href: "https://krnl.filenetwork.vip/android.html",
-                        children: [e.jsx(Ne, {
-                            size: 16
-                        }), "Download VNG"]
-                    }), e.jsxs("div", {
-                        className: "flex items-start gap-2 mt-4 p-3 rounded-lg bg-amber-500/10 border border-amber-500/20",
-                        children: [e.jsx(ke, {
-                            size: 16,
-                            className: "text-amber-400 mt-0.5 flex-shrink-0"
-                        }), e.jsx("p", {
-                            className: "text-xs text-amber-200",
-                            children: "Only use VNG if you have a Vietnamese region locked account"
-                        })]
-                    })]
-                }), e.jsxs(Ie, {
-                    icon: je,
-                    title: "Windows",
-                    subtitle: "All Windows versions",
-                    disabled: !0,
-                    children: [e.jsxs(He, {
-                        primary: !0,
-                        disabled: !0,
-                        children: [e.jsx(Ne, {
-                            size: 16
-                        }), "Download New UI"]
-                    }), e.jsxs(He, {
-                        disabled: !0,
-                        children: [e.jsx(Ne, {
-                            size: 16
-                        }), "Download Legacy"]
-                    }), e.jsxs("div", {
-                        className: "flex items-start gap-2 mt-4 p-3 rounded-lg bg-blue-500/10 border border-blue-500/20",
-                        children: [e.jsx(Se, {
-                            size: 16,
-                            className: "text-blue-400 mt-0.5 flex-shrink-0"
-                        }), e.jsx("p", {
-                            className: "text-xs text-blue-200",
-                            children: "Coming soon! Windows support is currently in development"
-                        })]
-                    })]
-                })]
-            }), e.jsx(t.div, {
-                initial: {
-                    opacity: 0,
-                    y: 20
-                },
-                whileInView: {
-                    opacity: 1,
-                    y: 0
-                },
-                transition: {
-                    duration: .6,
-                    delay: .3,
-                    ease: "easeOut"
-                },
-                viewport: {
-                    once: !0
-                },
-                className: "text-center mt-16",
-                children: e.jsxs("div", {
-                    className: "backdrop-blur-2xl bg-black/20 border border-white/20 rounded-2xl p-8 max-w-3xl mx-auto",
-                    children: [e.jsx("div", {
-                        className: "absolute inset-0 rounded-2xl bg-gradient-to-r from-white/5 to-white/10 pointer-events-none"
-                    }), e.jsxs("div", {
-                        className: "relative",
-                        children: [e.jsx("h3", {
-                            className: "text-xl font-semibold text-white mb-4 font-['Epilogue',sans-serif]",
-                            children: "Need help getting started?"
-                        }), e.jsx("p", {
-                            className: "text-gray-400 mb-6",
-                            children: "Join our Discord community for support, updates, and to connect with other users."
-                        }), e.jsxs(t.a, {
-                            href: "https://discord.gg/quSW94vB7q",
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            transition: {
-                                duration: .05
-                            },
-                            className: "inline-flex items-center justify-center gap-2 min-h-11 px-6 py-2.5 text-base font-medium leading-4 text-white cursor-pointer border-none rounded-lg outline-none whitespace-nowrap",
-                            style: {
-                                background: "linear-gradient(180deg, hsla(0,0%,100%,.03), hsla(0,0%,100%,.1))",
-                                boxShadow: "inset 0 1px 0 0 hsla(0,0%,100%,.05), 0 0 0 1px hsla(0,0%,100%,.25), inset 0 -1px 0 0 rgba(0,0,0,.2)",
-                                transition: "background-image .2s, background-color .2s, box-shadow .2s ease-in-out"
-                            },
-                            onMouseEnter: e => {
-                                e.currentTarget.style.boxShadow = "inset 0 1px 0 0 hsla(0,0%,100%,.05), 0 0 0 1px hsla(0,0%,100%,.5), inset 0 -1px 0 0 rgba(0,0,0,.2)"
-                            },
-                            onMouseLeave: e => {
-                                e.currentTarget.style.boxShadow = "inset 0 1px 0 0 hsla(0,0%,100%,.05), 0 0 0 1px hsla(0,0%,100%,.25), inset 0 -1px 0 0 rgba(0,0,0,.2)"
-                            },
-                            children: [e.jsx("img", {
-                                src: "/assets/discord.svg",
-                                alt: "Discord",
-                                className: "w-5 h-5"
-                            }), "Join Discord"]
-                        })]
-                    })]
+    Ue = () => {
+        const buildDefaultLinks = () => ({
+            android: {
+                global: "",
+                vng: ""
+            },
+            ios: {
+                ipa: "",
+                vng_ipa: ""
+            },
+            windows: {
+                legacy: ""
+            }
+        });
+        const [downloadLinks, setDownloadLinks] = a.useState(buildDefaultLinks());
+        a.useEffect(() => {
+            let active = !0;
+            fetch("https://raw.githubusercontent.com/kallmejake/FluxusZ/refs/heads/main/FluxusZ.json")
+                .then((response) => response.ok ? response.json() : null)
+                .then((data) => {
+                    if (!active || !data) return;
+                    setDownloadLinks({
+                        android: {
+                            global: data.android && data.android.global ? data.android.global : "",
+                            vng: data.android && data.android.vng ? data.android.vng : ""
+                        },
+                        ios: {
+                            ipa: data.ios && data.ios.ipa ? data.ios.ipa : "",
+                            vng_ipa: data.ios && data.ios.vng_ipa ? data.ios.vng_ipa : ""
+                        },
+                        windows: {
+                            legacy: data.windows && data.windows.legacy ? data.windows.legacy : ""
+                        }
+                    });
                 })
+                .catch(() => {});
+            return () => {
+                active = !1;
+            };
+        }, []);
+        return e.jsxs("section", {
+            className: "relative min-h-screen bg-black pt-32 pb-20",
+            children: [e.jsx(Re, {}), e.jsxs("div", {
+                className: "relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+                children: [e.jsxs(t.div, {
+                    initial: {
+                        opacity: 0,
+                        y: 20
+                    },
+                    animate: {
+                        opacity: 1,
+                        y: 0
+                    },
+                    transition: {
+                        duration: .6,
+                        ease: "easeOut"
+                    },
+                    className: "text-center mb-16",
+                    children: [e.jsxs("div", {
+                        className: "inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm mb-6",
+                        children: [e.jsx(Ne, {
+                            size: 16,
+                            className: "text-purple-300"
+                        }), e.jsx("span", {
+                            className: "text-sm text-gray-300 font-medium",
+                            children: "Desktop & mobile"
+                        })]
+                    }), e.jsx("h1", {
+                        className: "text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-[1.1] tracking-tight font-['Epilogue',sans-serif] mb-6",
+                        children: "Download Krnl"
+                    }), e.jsxs("p", {
+                        className: "text-xl text-gray-400 max-w-2xl mx-auto",
+                        children: ["Available for iOS, Android, and Windows.", e.jsx("br", {}), "Choose your platform and get started."]
+                    })]
+                }), e.jsxs("div", {
+                    className: "grid grid-cols-1 lg:grid-cols-3 gap-8",
+                    children: [e.jsxs(Ie, {
+                        icon: we,
+                        title: "iOS",
+                        subtitle: "iPhone & iPad",
+                        featured: !0,
+                        children: [e.jsxs(He, {
+                            href: downloadLinks.ios.ipa || "",
+                            disabled: !downloadLinks.ios.ipa,
+                            children: [e.jsx(ze, {
+                                size: 16
+                            }), "Download IPA"]
+                        }), e.jsxs(He, {
+                            href: downloadLinks.ios.vng_ipa || "",
+                            disabled: !downloadLinks.ios.vng_ipa,
+                            children: [e.jsx(ze, {
+                                size: 16
+                            }), "Download VNG IPA"]
+                        }), e.jsxs("div", {
+                            className: "flex items-start gap-2 mt-4 p-3 rounded-lg bg-blue-500/10 border border-blue-500/20",
+                            children: [e.jsx(ke, {
+                                size: 16,
+                                className: "text-blue-400 mt-0.5 flex-shrink-0"
+                            }), e.jsx("p", {
+                                className: "text-xs text-blue-200",
+                                children: "VNG IPA is only available for Vietnamese region locked accounts."
+                            })]
+                        })]
+                    }), e.jsxs(Ie, {
+                        icon: ze,
+                        title: "Android",
+                        subtitle: "All Android devices",
+                        children: [e.jsxs(He, {
+                            primary: !0,
+                            href: downloadLinks.android.global || "",
+                            disabled: !downloadLinks.android.global,
+                            children: [e.jsx(Ne, {
+                                size: 16
+                            }), "Download Regular"]
+                        }), e.jsxs(He, {
+                            href: downloadLinks.android.vng || "",
+                            disabled: !downloadLinks.android.vng,
+                            children: [e.jsx(Ne, {
+                                size: 16
+                            }), "Download VNG"]
+                        }), e.jsxs("div", {
+                            className: "flex items-start gap-2 mt-4 p-3 rounded-lg bg-amber-500/10 border border-amber-500/20",
+                            children: [e.jsx(ke, {
+                                size: 16,
+                                className: "text-amber-400 mt-0.5 flex-shrink-0"
+                            }), e.jsx("p", {
+                                className: "text-xs text-amber-200",
+                                children: "Only use VNG if you have a Vietnamese region locked account"
+                            })]
+                        })]
+                    }), e.jsxs(Ie, {
+                        icon: je,
+                        title: "Windows",
+                        subtitle: "All Windows versions",
+                        children: [e.jsxs(He, {
+                            primary: !0,
+                            href: downloadLinks.windows.legacy || "",
+                            disabled: !downloadLinks.windows.legacy,
+                            children: [e.jsx(Ne, {
+                                size: 16
+                            }), "Download Legacy"]
+                        }), e.jsxs("div", {
+                            className: "flex items-start gap-2 mt-4 p-3 rounded-lg bg-blue-500/10 border border-blue-500/20",
+                            children: [e.jsx(Se, {
+                                size: 16,
+                                className: "text-blue-400 mt-0.5 flex-shrink-0"
+                            }), e.jsx("p", {
+                                className: "text-xs text-blue-200",
+                                children: "Stay tuned for windows updates and new releases. We are working hard to bring you the best experience possible."
+                            })]
+                        })]
+                    })]
+                }), e.jsx(t.div, {
+                    initial: {
+                        opacity: 0,
+                        y: 20
+                    },
+                    whileInView: {
+                        opacity: 1,
+                        y: 0
+                    },
+                    transition: {
+                        duration: .6,
+                        delay: .3,
+                        ease: "easeOut"
+                    },
+                    viewport: {
+                        once: !0
+                    },
+                    className: "text-center mt-16",
+                    children: e.jsxs("div", {
+                        className: "backdrop-blur-2xl bg-black/20 border border-white/20 rounded-2xl p-8 max-w-3xl mx-auto",
+                        children: [e.jsx("div", {
+                            className: "absolute inset-0 rounded-2xl bg-gradient-to-r from-white/5 to-white/10 pointer-events-none"
+                        }), e.jsxs("div", {
+                            className: "relative",
+                            children: [e.jsx("h3", {
+                                className: "text-xl font-semibold text-white mb-4 font-['Epilogue',sans-serif]",
+                                children: "Need help getting started?"
+                            }), e.jsx("p", {
+                                className: "text-gray-400 mb-6",
+                                children: "Join our Discord community for support, updates, and to connect with other users."
+                            }), e.jsxs(t.a, {
+                                href: "https://discord.gg/ECgnyDq9h5",
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                transition: {
+                                    duration: .05
+                                },
+                                className: "inline-flex items-center justify-center gap-2 min-h-11 px-6 py-2.5 text-base font-medium leading-4 text-white cursor-pointer border-none rounded-lg outline-none whitespace-nowrap",
+                                style: {
+                                    background: "linear-gradient(180deg, hsla(0,0%,100%,.03), hsla(0,0%,100%,.1))",
+                                    boxShadow: "inset 0 1px 0 0 hsla(0,0%,100%,.05), 0 0 0 1px hsla(0,0%,100%,.25), inset 0 -1px 0 0 rgba(0,0,0,.2)",
+                                    transition: "background-image .2s, background-color .2s, box-shadow .2s ease-in-out"
+                                },
+                                onMouseEnter: e => {
+                                    e.currentTarget.style.boxShadow = "inset 0 1px 0 0 hsla(0,0%,100%,.05), 0 0 0 1px hsla(0,0%,100%,.5), inset 0 -1px 0 0 rgba(0,0,0,.2)"
+                                },
+                                onMouseLeave: e => {
+                                    e.currentTarget.style.boxShadow = "inset 0 1px 0 0 hsla(0,0%,100%,.05), 0 0 0 1px hsla(0,0%,100%,.25), inset 0 -1px 0 0 rgba(0,0,0,.2)"
+                                },
+                                children: [e.jsx("img", {
+                                    src: "/assets/discord.svg",
+                                    alt: "Discord",
+                                    className: "w-5 h-5"
+                                }), "Join Discord"]
+                            })]
+                        })]
+                    })
+                })]
             })]
-        })]
-    });
+        });
+    };
 
 function We() {
     return e.jsx(De, {
         title: "Download Krnl — iOS, Android & Windows",
         description: "Get Krnl on iPhone, Android, or Windows: IPA, APKs, and EXE installers available.",
-        canonical: "https://krnl.lat/downloads",
+        canonical: "Downloads.html",
         children: e.jsx(Ue, {})
     })
 }
@@ -10246,7 +10285,7 @@ const $e = () => {
                     children: "Terms of Service"
                 }), e.jsx("p", {
                     className: "text-lg text-gray-400",
-                    children: "February 6, 2025"
+                    children: "February 6, 2026"
                 })]
             }), e.jsxs(t.div, {
                 initial: {
@@ -10512,9 +10551,9 @@ const $e = () => {
                                 className: "text-white",
                                 children: "Email:"
                             }), " ", e.jsx("a", {
-                                href: "mailto:krnl.inc@gmail.com",
+                                href: "https://discord.gg/ECgnyDq9h5",
                                 className: "text-purple-300 hover:text-purple-200 transition-colors",
-                                children: "krnl.inc@gmail.com"
+                                children: "https://discord.gg/ECgnyDq9h5"
                             })]
                         }), e.jsxs("li", {
                             children: [e.jsx("strong", {
